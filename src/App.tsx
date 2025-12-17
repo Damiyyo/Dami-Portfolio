@@ -4,7 +4,7 @@ import { Home } from './components/Home';
 import { About } from './components/About';
 import { Skills } from './components/Skills';
 import { Projects } from './components/Projects';
-import { Contact } from './components/Contact';
+import { Contact } from './components/Contacts';
 import { Sun, Moon } from 'lucide-react';
 
 const App: React.FC = () => {
