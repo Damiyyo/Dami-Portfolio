@@ -48,7 +48,7 @@ export const Home: React.FC<HomeProps> = ({ isDarkMode }) => {
           isDarkMode ? 'bg-slate-800 border-white/10' : 'bg-gray-100 border-black/10'
         }`}>
           <img 
-            src="/Profile.JPG" 
+            src="/profile.jpeg" 
             alt="Oluwadamilola Banjo" 
             className={`w-full h-full object-cover transition-all duration-700 ${
               isDarkMode ? 'grayscale hover:grayscale-0' : 'grayscale-0'

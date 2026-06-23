@@ -68,6 +68,16 @@ export const About: React.FC<{ isDarkMode: boolean }> = ({ isDarkMode }) => {
                 <p className="font-bold">LASHMA</p>
                 <p className="text-blue-600 font-bold text-sm">2024</p>
               </div>
+
+              {/* LASHMA */}
+              <div className="relative pl-6 border-l-2 border-gray-400">
+                <div className="absolute -left-[9px] top-0 w-4 h-4 bg-gray-400 rounded-full" />
+                <p className="font-black text-lg">Information Technology Specialist</p>
+                <p className="font-bold">LASHMA</p>
+                <p className="text-blue-600 font-bold text-sm">2026 - Present </p>
+              </div>
+
+
             </div>
           </div>
         </div>

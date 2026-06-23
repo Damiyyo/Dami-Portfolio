@@ -10,7 +10,7 @@ export const Contact: React.FC<ContactProps> = ({ isDarkMode }) => {
   
   const handleResumeClick = () => {
     // Ensure the path here matches exactly what is in your public folder
-    const resumePath = '/OLUWADAMILOLABANJOCV.pdf';
+    const resumePath = '/BANJO RESUME.pdf';
 
     // 1. Open the PDF in a new tab for viewing
     window.open(resumePath, '_blank');
@@ -41,7 +41,7 @@ export const Contact: React.FC<ContactProps> = ({ isDarkMode }) => {
           <a href="https://github.com/damiyyo" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 transition-colors">
             <Github size={28} />
           </a>
-          <a href="#" className="hover:text-blue-500 transition-colors">
+          <a href="https://www.linkedin.com/public-profile/settings/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3BXyah3L8eTR2Yafa3NG7Tmg%3D%3D" className="hover:text-blue-500 transition-colors">
             <Linkedin size={28} />
           </a>
         </div>
