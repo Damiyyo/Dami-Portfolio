@@ -55,7 +55,7 @@ export const Skills: React.FC<SkillsProps> = ({ isDarkMode }) => {
   ];
 
   const security: Skill[] = [
-    { name: "Network Security", status: "Learning in Progress" },
+    { name: "Network Security | CyberSecurity Analyst", status: "Learning in Progress" },
     { name: "Penetration Testing | Ethical Hacking", status: "Learning in Progress" },
   ];
 
@@ -84,7 +84,7 @@ export const Skills: React.FC<SkillsProps> = ({ isDarkMode }) => {
 
         {/* Cybersecurity */}
         <motion.div className={cardClass}>
-          <h3 className="text-xl font-black mb-8 flex items-center gap-2"><ShieldCheck className="text-blue-600" /> Security</h3>
+          <h3 className="text-xl font-black mb-8 flex items-center gap-2"><ShieldCheck className="text-blue-600" /> CyberSecurity</h3>
           {security.map(s => <SkillBar key={s.name} skill={s} isDarkMode={isDarkMode} />)}
         </motion.div>
       </div>
