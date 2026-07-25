@@ -6,7 +6,7 @@ interface HeroProps {
   isDarkMode: boolean;
 }
 
-export const Hero: React.FC<HeroProps> = ({ isDarkMode }) => {
+export const Home: React.FC<HeroProps> = ({ isDarkMode }) => {
   
   const containerVariants = {
     hidden: { opacity: 0, y: 20 },
